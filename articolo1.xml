@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<!DOCTYPE TEI SYSTEM "progetto.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ammonizione e Domicilio Coatto</title>
+                <respStmt>
+                    <resp>Progetto di codifica di testi</resp>
+                    <name>Beggiato Camilla e Franchi Gemma</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Edizione digitale didattica</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>La Rassegna Settimanale</title>
+                    <biblScope unit="volume">1</biblScope>
+                    <biblScope unit="issue">8</biblScope>
+                    <date when="1878-02-24">24 Febbraio 1878</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface xml:id="pag125">
+            <graphic url="articolo 1.jpg" width="739px" height="1063px" />
+            <zone xml:id="a1_titolo" ulx="50" uly="50" lrx="600" lry="100" />
+            <zone xml:id="a1_p1" ulx="50" uly="110" lrx="600" lry="300" />
+            <zone xml:id="a1_p2" ulx="50" uly="310" lrx="600" lry="500" />
+        </surface>
+
+        <surface xml:id="pag126">
+            <graphic url="articolo 1 pag2.jpg" width="739px" height="1063px" />
+            <zone xml:id="a1_p3" ulx="50" uly="50" lrx="600" lry="200" />
+            <zone xml:id="a1_p4" ulx="50" uly="210" lrx="600" lry="400" />
+            <zone xml:id="a1_p5" ulx="50" uly="410" lrx="600" lry="600" />
+            <zone xml:id="a1_p6" ulx="50" uly="610" lrx="600" lry="800" />
+        </surface>
+    </facsimile>
+
+    <text>
+        <body>
+            <div type="articolo">
+                
+                <pb n="125" facs="#pag125"/>
+                
+                <head facs="#a1_titolo">AMMONIZIONE E <term>DOMICILIO COATTO</term>.</head>
+
+                <p facs="#a1_p1">
+                    <lb/>Siamo noi un popolo libero? Chi sfogli i nostri Codici
+                    <lb/>non ne può dubitare. Ad ogni pagina si manifesta un ri-
+                    <lb/>spetto religioso della <term>libertà personale</term> di ciascun cittadino,
+                    <lb/>libertà che è fondamento e fine di tutte le altre. [...]
+                </p>
+
+                <p facs="#a1_p2">
+                    <lb/>o anche statario. Per il <title>Codice penale italiano</title> (art. 47)
+                    <lb/>anche l'<term>ammonizione</term> s'infligge per un fatto. [...]
+                </p>
+
+                <pb n="126" facs="#pag126"/>
+
+                <p facs="#a1_p3">
+                    <lb/>V' ha un istituto inteso più specialmente d'ogni altro
+                    <lb/>ad impedire che il <orgName>potere esecutivo</orgName> adoperi l'organismo giu-
+                    <lb/>diziario come istrumento di prepotenza [...]
+                    <lb/>già capito che intendiamo il <term>giurì</term>. [...]
+                </p>
+
+                <p facs="#a1_p4">
+                    <lb/>...Il semplice cittadino è in balìa all'<term>ammonizione</term>, non quella
+                    <lb/>del <title>Codice penale</title>, ma quella della legge di <term>pubblica sicu-
+                    <lb/>rezza</term> del <date>1875</date>, provvedimento di polizia inflitto da un ma-
+                    <lb/>gistrato amovibile; l'<term>ammonito</term>, violati i precetti indeter-
+                    <lb/>minatissimi impostigli, può essere mandato dal Ministro
+                    <lb/>dell'Interno, cioè dalla polizia, a <term>domicilio coatto</term> anche per
+                    <lb/>cinque anni.
+                </p>
+
+                <p facs="#a1_p5">
+                    <lb/>morale del nostro personale giudiziario e di pubblica sicu-
+                    <lb/>rezza, nelle lungaggini inefficaci della nostra procedura
+                    <lb/>penale. E pure, deputati e ministri d'ogni partito, fanno
+                    <lb/>a gara nel peggiorare ancora quel personale...
+                </p>
+
+                <p facs="#a1_p6">
+                    <lb/>...Diciamo di essere una nazione giovane:
+                    <lb/>siamo piuttosto un popolo bimbo. Come quei bambini cui
+                    <lb/>la mamma ha portato dalla fiera l'orologio di foglia d'ot-
+                    <lb/>tone vanno attorno dicendo: <quote>« <hi rend="italic">Vedete, l'ho anch'io l'oro-
+                    <lb/>logio che si carica,</hi> »</quote> così noi andiamo pavoneggiandoci per
+                    <lb/>l'<placeName>Europa</placeName> colla nostra libertà; <term>libertà</term> da tre soldi che non
+                    <lb/>cammina e che, invece di dar vita a tutte le forze della
+                    <lb/>nazione per farle cooperare al suo benessere e al suo vi-
+                    <lb/>gore, ci accascia con tutte le debolezze proprie delle oli-
+                    <lb/>garchie decrepite, e ci toglie di sperare perfino quell'ener-
+                    <lb/>gia che il <term>dispotismo</term> seppe talvolta infondere nei popoli.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<!DOCTYPE TEI SYSTEM "progetto.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Emigrazione e Colonizzazione</title>
+                <respStmt>
+                    <resp>Progetto di codifica di testi</resp>
+                    <name>Beggiato Camilla e Franchi Gemma</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Edizione digitale didattica</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>La Rassegna Settimanale</title>
+                    <biblScope unit="volume">5</biblScope>
+                    <biblScope unit="issue">120</biblScope>
+                    <date when="1880-04-18">18 Aprile 1880</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface xml:id="pag272">
+            <graphic url="Articolo 2.jpg" width="727.4px" height="1051.4px" />
+            <zone xml:id="a2_titolo" ulx="50" uly="50" lrx="600" lry="80" />
+            <zone xml:id="a2_p1" ulx="50" uly="90" lrx="600" lry="300" />
+            <zone xml:id="a2_p2" ulx="50" uly="310" lrx="600" lry="500" />
+            <zone xml:id="a2_p3" ulx="50" uly="510" lrx="600" lry="900" />
+        </surface>
+
+        <surface xml:id="pag273">
+            <graphic url="Articolo 2 pag2.jpg" width="709.4px" height="1066.4px" />
+            <zone xml:id="a2_p4" ulx="50" uly="50" lrx="600" lry="300" />
+            <zone xml:id="a2_firma" ulx="400" uly="310" lrx="600" lry="350" />
+        </surface>
+    </facsimile>
+
+    <text>
+        <body>
+            <div type="articolo">
+                <pb n="272" facs="#pag272"/>
+                
+                <head facs="#a2_titolo">EMIGRAZIONE E <term>COLONIZZAZIONE</term>.</head>
+
+                <p facs="#a2_p1">
+                    <lb/>Ogni volta che accade di parlare dell'<term type="theme">emigrazione</term>, il pen-
+                    <lb/>siero corre a quegli <term>agenti arruolatori</term> le cui bugiarde se-
+                    <lb/>duzioni sono state tanto fatali a migliaia e migliaia delle
+                    <lb/>nostre migliori braccia. Di tutti i provvedimenti che il <orgName>governo</orgName>
+                    <lb/>può prendere in faccia al doloroso esodo il solo su
+                    <lb/>cui non cada discussione è la necessità d'invigilare efficace-
+                    <lb/>mente la loro condotta; e a questo principalmente miravano
+                    <lb/>i due progetti di legge <persName>Del Giudice</persName> e <persName>Minghetti</persName>-<persName>Luzzatti</persName>,
+                    <lb/>da tanto tempo presentati al nostro <orgName>Parlamento</orgName>, che pote-
+                    <lb/>rono già intanto essere conciliati in uno solo. [...]
+                </p>
+
+                <p facs="#a2_p2">
+                    <lb/>Gli Stati dell'<placeName>America</placeName> sono ben lungi dall'avere messo
+                    <lb/>a coltura tutto il loro suolo. [...]
+                    <lb/>Qua i terreni vennero posti partitamente a immediato con-
+                    <lb/>tatto dell'<term>emigrante</term> che arrivava con poco o nessun <term>capi-
+                    <lb/>tale</term> perchè appunto si voleva costituire una classe demo-
+                    <lb/>cratica di piccoli <term>proprietari</term> agiati ed indipendenti, là invece
+                    <lb/>diventarono una specie di <term>beneficio feudale</term> di pochi privi-
+                    <lb/>legiati. [...]
+                </p>
+                
+                <p facs="#a2_p3">
+                    <lb/>Così s'accrebbe il numero dei <term>latifondi</term>. Quei proprietari
+                    <lb/>che intrapresero la conduzione diretta, abbagliati dagli
+                    <lb/>enormi profitti della <term>coltura estensiva</term>, abituati quasi gene-
+                    <lb/>ralmente a vederla riescire mercè l'impiego degli <term>schiavi</term>,
+                    <lb/>non poterono così presto lasciarsi persuadere dalla dottrina
+                    <lb/>della compartecipazione delle braccia ai frutti della terra,
+                    <lb/>e seguitarono ancora a mantenersi in diretto antagonismo
+                    <lb/>cogl'interessi e le speranze del <term>lavoro</term>. Come dapprima
+                    <lb/>alimentarono la <term>tratta dei negri</term>, come si valsero poi del-
+                    <lb/>l'importazione dei <foreign xml:lang="en">coolies</foreign>, ora ricorrono alla seduzione degli
+                    <lb/>elementi più poveri della popolazione agricola europea; chè
+                </p>
+
+                <pb n="273" facs="#pag273"/>
+                
+                <p facs="#a2_p4">
+                    <lb/>se ad essi promettono qualche ettaro, o in dono o a prezzi
+                    <lb/>minimi, circondano la promessa di tali condizioni da rendere
+                    <lb/>facile il proclamarli decaduti quando appunto i lavori di dis-
+                    <lb/>sodamento o di miglioria son più progrediti, e intanto colle
+                    <lb/>anticipazioni e coi sussidi hanno posto loro indosso peggiori
+                    <lb/>catene di quelle della <term>schiavitù</term>.
+                </p>
+
+                <closer>
+                    <signed facs="#a2_firma">X</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
