@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<!DOCTYPE TEI SYSTEM "TEI.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>La Rassegna Settimanale (1878-1881) - Edizione Digitale</title>
+                <respStmt>
+                    <resp>Progetto di codifica di testi</resp>
+                    <name>Beggiato Camilla e Franchi Gemma</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Edizione digitale didattica</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>La Rassegna Settimanale</title>
+                    <date>1878-1881</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface xml:id="pag125">
+            <graphic url="articolo 1.jpg" width="739px" height="1063px" />
+            <zone xml:id="a1_titolo" ulx="50" uly="50" lrx="600" lry="100" />
+            <zone xml:id="a1_p1" ulx="50" uly="110" lrx="600" lry="200" />
+            <zone xml:id="a1_p2" ulx="50" uly="210" lrx="600" lry="300" />
+            <zone xml:id="a1_p3" ulx="50" uly="310" lrx="600" lry="450" />
+            <zone xml:id="a1_p4" ulx="50" uly="460" lrx="600" lry="600" />
+            <zone xml:id="a1_p5" ulx="50" uly="610" lrx="600" lry="750" />
+            <zone xml:id="a1_p6" ulx="50" uly="760" lrx="600" lry="900" />
+        </surface>
+        <surface xml:id="pag126">
+            <graphic url="articolo 1 pag2.jpg" width="739px" height="1063px" />
+            <zone xml:id="a1_p7" ulx="50" uly="50" lrx="600" lry="200" />
+            <zone xml:id="a1_p8" ulx="50" uly="210" lrx="600" lry="400" />
+            <zone xml:id="a1_p9" ulx="50" uly="410" lrx="600" lry="600" />
+        </surface>
+        <surface xml:id="pag272">
+            <graphic url="Articolo 2.jpg" width="727.4px" height="1051.4px" />
+            <zone xml:id="a2_titolo" ulx="50" uly="50" lrx="600" lry="80" />
+            <zone xml:id="a2_p1" ulx="50" uly="90" lrx="600" lry="200" />
+            <zone xml:id="a2_p2" ulx="50" uly="210" lrx="600" lry="300" />
+            <zone xml:id="a2_p3" ulx="50" uly="310" lrx="600" lry="450" />
+            <zone xml:id="a2_p4" ulx="50" uly="460" lrx="600" lry="700" />
+            <zone xml:id="a2_p5" ulx="50" uly="710" lrx="600" lry="900" />
+        </surface>
+        <surface xml:id="pag273">
+            <graphic url="Articolo 2 pag2.jpg" width="709.4px" height="1066.4px" />
+            <zone xml:id="a2_p6" ulx="50" uly="50" lrx="600" lry="200" />
+            <zone xml:id="a2_p7" ulx="50" uly="210" lrx="600" lry="400" />
+            <zone xml:id="a2_p8" ulx="50" uly="410" lrx="600" lry="600" />
+            <zone xml:id="a2_p9" ulx="50" uly="610" lrx="600" lry="800" />
+            <zone xml:id="a2_firma" ulx="400" uly="810" lrx="600" lry="850" />
+        </surface>
+        <surface xml:id="pag350">
+            <graphic url="Articolo 3.jpg" width="739.4px" height="1063.4px" />
+            <zone xml:id="a3_p1_titolo" ulx="406" uly="756" lrx="664" lry="776" />
+            <zone xml:id="a3_p1" ulx="379" uly="776" lrx="699" lry="829" />
+            <zone xml:id="a3_p2" ulx="375" uly="832" lrx="699" lry="868" />
+        </surface>
+        <surface xml:id="pag351">
+            <graphic url="Articolo 3 pag2.jpg" width="738.4px" height="1058.4px" />
+            <zone xml:id="a3_p3" ulx="34" uly="43" lrx="358" lry="138" />
+            <zone xml:id="a3_p4" ulx="35" uly="140" lrx="359" lry="203" />
+            <zone xml:id="a3_p5" ulx="35" uly="207" lrx="359" lry="296" />
+            <zone xml:id="a3_firma" ulx="282" uly="300" lrx="343" lry="312" />
+        </surface>
+        <surface xml:id="pag142">
+            <graphic url="Bibliografia 1.jpg" width="733px" height="1073px"/>
+            <zone xml:id="bib_titolo" ulx="52" uly="880" lrx="378" lry="891"/>
+            <zone xml:id="bib_pubblicazione" ulx="74" uly="895" lrx="168" lry="904"/>
+            <zone xml:id="bib_p1" ulx="55" uly="928" lrx="378" lry="996"/>
+            <zone xml:id="bib_p2" ulx="384" uly="77" lrx="708" lry="165"/>
+            <zone xml:id="bib_p3" ulx="385" uly="172" lrx="707" lry="360"/>
+            <zone xml:id="bib_p4" ulx="387" uly="367" lrx="707" lry="416"/>
+        </surface>
+        <surface xml:id="pag283">
+            <graphic url="Bibliografia 2.jpg" width="732.4px" height="1083.4px"/>
+            <zone xml:id="bib_p1_titolo" ulx="359" uly="461" lrx="600" lry="471"/>
+            <zone xml:id="bib_283_p1" ulx="355" uly="475" lrx="679" lry="545"/>
+            <zone xml:id="bib_283_p2" ulx="355" uly="547" lrx="679" lry="637"/>
+            <zone xml:id="bib_283_p3" ulx="355" uly="642" lrx="682" lry="747"/>
+            <zone xml:id="bib_283_p4" ulx="357" uly="753" lrx="684" lry="985"/>
+        </surface>
+        <surface xml:id="pag284">
+            <graphic url="Bibliografia 2 pag 2.jpg" width="742.4px" height="1066.4px"/>
+            <zone xml:id="bib_284_p1" ulx="82" uly="79" lrx="407" lry="338"/>
+            <zone xml:id="bib_284_p2" ulx="82" uly="340" lrx="407" lry="560"/>
+            <zone xml:id="bib_moroni_titolo" ulx="82" uly="574" lrx="407" lry="594"/>
+            <zone xml:id="bib_moroni_p1" ulx="82" uly="600" lrx="407" lry="840"/>
+            <zone xml:id="bib_moroni_p2" ulx="420" uly="79" lrx="750" lry="340"/>
+        </surface>
+        <surface xml:id="pag144">
+            <graphic url="Notizie 1.jpg" width="727px" height="1063px" />
+            <zone xml:id="not_titolo" ulx="175" uly="750" lrx="239" lry="761" />
+            <zone xml:id="not_monaci" ulx="43" uly="767" lrx="366" lry="801" />
+            <zone xml:id="not_trollope" ulx="44" uly="807" lrx="366" lry="825" />
+            <zone xml:id="not_manzoni" ulx="44" uly="829" lrx="366" lry="888" />
+            <zone xml:id="not_amari" ulx="43" uly="894" lrx="366" lry="975" />
+            <zone xml:id="not_thiers" ulx="382" uly="68" lrx="704" lry="91" />
+            <zone xml:id="not_bitard" ulx="380" uly="96" lrx="702" lry="157" />
+            <zone xml:id="not_bigot" ulx="381" uly="161" lrx="702" lry="261" />
+            <zone xml:id="not_hellwald" ulx="381" uly="264" lrx="702" lry="311" />
+            <zone xml:id="not_westminster" ulx="380" uly="315" lrx="702" lry="410" />
+            <zone xml:id="not_besant" ulx="380" uly="415" lrx="700" lry="484" />
+            <zone xml:id="not_samter" ulx="378" uly="489" lrx="700" lry="539" />
+            <zone xml:id="not_bamberger" ulx="377" uly="543" lrx="700" lry="575" />
+            <zone xml:id="not_social" ulx="378" uly="580" lrx="700" lry="612" />
+            <zone xml:id="not_wilson" ulx="379" uly="617" lrx="700" lry="676" />
+            <zone xml:id="not_archeo" ulx="377" uly="681" lrx="700" lry="928" />
+        </surface>
+        <surface xml:id="pag352">
+            <graphic url="Notizie 2.jpg" width="738.4px" height="1061.4px"/>
+            <zone xml:id="notizie_titolo" ulx="527" uly="504" lrx="593" lry="520"/>
+            <zone xml:id="notizie_n1" ulx="399" uly="523" lrx="720" lry="572"/>
+            <zone xml:id="notizie_n2" ulx="399" uly="577" lrx="722" lry="596"/>
+            <zone xml:id="notizie_n3" ulx="397" uly="599" lrx="725" lry="892"/>
+        </surface>
+    </facsimile>
+
+    <text>
+        <body>
+            <div type="edizione">
+                
+                <pb n="125" facs="#pag125"/>
+                <head facs="#a1_titolo">AMMONIZIONE E <term>DOMICILIO COATTO</term>.</head>
+                <p facs="#a1_p1">
+                    <lb/>Siamo noi un popolo libero? Chi sfogli i nostri Codici
+                    <lb/>non ne può dubitare. Ad ogni pagina si manifesta un ri-
+                    <lb/>spetto religioso della <term>libertà personale</term> di ciascun cittadino,
+                    <lb/>libertà che è fondamento e fine di tutte le altre. Fondamento
+                    <lb/>della libertà personale è, per consenso di tutti, la regola
+                    <lb/>rigorosamente applicata, che niuno possa esser condan-
+                    <lb/>nato per un sospetto, ma solamente dietro la prova di
+                    <lb/>un atto commesso. Ogni procedura, in un Governo ci-
+                    <lb/>vile, non è altro che una garanzia di questo principio,
+                    <lb/>tanto se il processo si compone di quattro istanze, come
+                    <lb/>se sommario, o anche statario.
+                </p>
+                <p facs="#a1_p2">
+                    <lb/>Per il <title>Codice penale italiano</title> (art. 47)
+                    <lb/>anche l'<term>ammonizione</term> s'infligge per un fatto. E la sol-
+                    <lb/>lecitudine del Codice di Procedura Penale perchè non
+                    <lb/>venga condannato alcuno se non è ben provato ch' egli
+                    <lb/>è autore di un fatto criminoso è tale, che per timore di
+                    <lb/>condannare, per troppa fretta, un innocente, si fa rima-
+                    <lb/>nere anche per anni in carcere in qualità di accusato.
+                </p>
+                <p facs="#a1_p3">
+                    <lb/>V' ha un istituto inteso più specialmente d'ogni altro
+                    <lb/>ad impedire che il <orgName>potere esecutivo</orgName> adoperi l'organismo giu-
+                    <lb/>diziario come istrumento di prepotenza, a toglier modo a
+                    <lb/>chiunque di ottenere condanne o assoluzioni ingiuste dalla
+                    <lb/>paura o dalla corruzione di un magistrato; il lettore ha
+                    <lb/>già capito che intendiamo il <term>giurì</term>. Non v'ha anno in cui
+                    <lb/>manchino rappresentanti del fisco che nella seduta inau-
+                    <lb/>gurale del loro Tribunale ne tessano il panegirico spin-
+                    <lb/>gendo la loro tenera premura fino a prevedere le obiezioni
+                    <lb/>che potessero venire suggerite da taluni fatti, atti ad ispi-
+                    <lb/>rare dubbi sull'efficacia dell'istituto stesso, ed esponendo
+                    <lb/>in bell'ordine battaglioni di cifre a prova che in Italia il
+                    <lb/>delitto è punito e l'innocenza protetta. E se in Parlamento
+                    <lb/>qualcuno, pur protestando della sua religiosa venerazione
+                    <lb/>per il talismano, si azzarda ad esprimere il dubbio che in
+                    <lb/>taluni luoghi circostanze eccezionali ne distruggano l'ef-
+                    <lb/>ficacia, e propone che in quei luoghi ne venga sospeso
+                    <lb/>l'uso, non manca chi raccolga i panegirici giudiziari e
+                    <lb/>schiacci il proponente sotto il loro peso; le lunghe file di
+                    <lb/>cifre, chiamate alla riscossa, fanno mordere alla proposta
+                    <lb/>la polvere degli archivi della Camera. Chi potrebbe dubi-
+                    <lb/>tare che la libertà del più povero ed umile cittadino non
+                    <lb/>sia efficacemente protetta dalle leggi, e queste leggi gelo-
+                    <lb/>samente custodite dalla magistratura e dai rappresentanti
+                    <lb/>del popolo?
+                </p>
+                <p facs="#a1_p4">
+                    <lb/>E pure, questa legge tanto liberale, tanto democratica
+                    <lb/>del giurì, del <hi rend="italic">judicium per pares</hi>, è una legge di privilegio.
+                    <lb/>È protetto da essa solamente colui che è nella posizione
+                    <lb/>ufficiale di accusato giudicialmente per un grosso delitto.
+                    <lb/>Il semplice cittadino è in balìa all'<term>ammonizione</term>, non quella
+                    <lb/>del <title>Codice penale</title>, ma quella della legge di <term>pubblica sicu-
+                    <lb/>rezza</term> del <date>1875</date>, provvedimento di polizia inflitto da un ma-
+                    <lb/>gistrato amovibile; l'<term>ammonito</term>, violati i precetti indeter-
+                    <lb/>minatissimi impostigli, può essere mandato dal Ministro
+                    <lb/>dell'Interno, cioè dalla polizia, a <term>domicilio coatto</term> anche per
+                    <lb/>cinque anni. Un cittadino può essere tolto alla sua famiglia,
+                    <lb/>al suo lavoro e confinato in un'isola per cinque anni, con
+                    <lb/>un seguito di provvedimenti di polizia, non per fatti com-
+                    <lb/>messi, ma per semplici sospetti ed a lui non resta difesa
+                    <lb/>possibile, poichè se talvolta può esser dato di provare po-
+                    <lb/>sitivamente l'insussistenza di un fatto, ciò non è possibile
+                    <lb/>riguardo all'insussistenza di un sospetto. Quella libertà che
+                    <lb/>là si è preteso di assicurare per mezzo di un sistema di ga-
+                    <lb/>ranzie complicatamente architettate, anche con rischio del-
+                    <lb/>l'ordine pubblico, ricade qua in balìa degli arbitrii del po-
+                    <lb/>tere esecutivo, delle prepotenze e dei raggiri di qualche
+                    <lb/>tirannello ed intrigante locale. E l'opinione pubblica approva
+                    <lb/>non solo che sia applicata largamente siffatta legge, ma per-
+                    <lb/>fino che sia violata col non tener conto delle poche formalità
+                    <lb/>che sancisce e dei deboli ritegni che oppone all'arbitrio del-
+                    <lb/>l'autorità politica.
+                </p>
+                <p facs="#a1_p5">
+                    <lb/>Noi non intendiamo esaminare qui se i recenti invii a
+                    <lb/>domicilio coatto operati in Sicilia senza preventiva ammoni-
+                    <lb/>zione debbano essere lodati o condannati. Il lettore ha po-
+                    <lb/>tuto vedere nell'ultimo nostro numero l'opinione in propo-
+                    <lb/>sito del nostro corrispondente di Palermo e formarsi un
+                    <lb/>giudizio se crede; e niuno nega che sia possibile immaginare
+                    <lb/>casi in cui il potere esecutivo possa in via eccezionale e
+                    <lb/>temporanea, non tener conto della legge. Ma ciò che sconforta
+                    <lb/>è il vedere che dopo, nè il Ministro nè il Parlamento hanno
+                    <lb/>giudicato necessario che una siffatta violazione fosse appro-
+                    <lb/>vata o condannata da un voto solenne, il quale in un caso
+                    <lb/>come nell'altro, sancisse il diritto più prezioso dei cittadini.
+                    <lb/>Siano pur state le illegalità del Nicotera in Sicilia cagioni
+                    <lb/>della sua caduta. L'averlo rovesciato con un altro pretesto
+                    <lb/>è prova che agli uomini d'ogni specie e colore che vota-
+                    <lb/>rono contro di lui, stava più a cuore il suo danno che le
+                    <lb/>libertà pubbliche. A uomini politici siffatti non può non es-
+                    <lb/>sere affatto indifferente una legge che violi la più preziosa di
+                    <lb/>queste libertà. E difatti, la critica dell'ammonizione, fatta
+                    <lb/>dall'onorevole Depretis nella sua relazione sul progetto di
+                    <lb/>legge dei provvedimenti eccezionali del 1875, non può più
+                    <lb/>considerarsi, dopo la sua venuta al Ministero, se non come
+                    <lb/>un innocente esercizio rettorico.
+                </p>
+                <p facs="#a1_p6">
+                    <lb/>Si capisce che l'opinione pubblica, anche colta, onesta
+                    <lb/>e liberale, sia indifferente, o anche favorevole al domicilio
+                    <lb/>coatto. La classe superiore e media, che in Italia fa da pub-
+                    <lb/>blico, sente i danni di una cattiva sicurezza, e non vede
+                    <lb/>altro rimedio immediato. I rimedi indiretti o non li vede,
+                    <lb/>o, vedendoli, non ha mezzo di farli prevalere subito. D'al-
+                    <lb/>tra parte, coloro che soffrono per gli arbitrii possibili non
+                    <lb/>sono i componenti queste classi, salvo ben rare eccezioni,
+                    <lb/>nelle quali gli offesi, meritevoli o no, trovano finalmente
+                    <lb/>modo non solo di liberarsi, ma anche di vendicarsi: testi-
+                    <lb/>mone la caduta del Nicotera, se realmente è dovuta al mal-
+                    <lb/>contento dei Siciliani. Ne soffrono gli uomini della classe
+                    <lb/>infima, sui quali un pretore, un delegato, un brigadiere dei
+                    <lb/>carabinieri è onnipotente, e la cui voce, quando abbiano ri-
+                    <lb/>cevuto un torto, non giunge fino alle alte sfere del mondo
+                    <lb/>politico. Ma come spiegare che gli uomini i quali diretta-
+                    <lb/>mente o indirettamente partecipano al Governo, e mostrano
+                    <lb/>un rispetto così superstizioso per quella loro tal grammatica
+                    <lb/>costituzionale da scomunicare con tanto fervore chi si per-
+                    <lb/>metta qualche solecismo contro di essa, come si spiega che
+                    <lb/>questi uomini facciano così buon mercato delle libertà che
+                    <lb/>la nostra costituzione è destinata a proteggere e mante-
+                    <lb/>nere, mentre per la loro posizione stessa sono in grado di
+                    <lb/>conoscere quali sono le cagioni che rendono ora necessaria la
+                    <lb/>sciagurata legge del domicilio coatto e di sapere che a que-
+                    <lb/>ste si potrebbe pur rimediare altrimenti? Essi sanno che
+                    <lb/>l'impotenza della società contro i malfattori ha la sua prin-
+                    <lb/>cipale cagione nella miserabile insufficienza intellettuale e
+                </p>
+                
+                <pb n="126" facs="#pag126"/>
+                <p facs="#a1_p7">
+                    <lb/>morale del nostro personale giudiziario e di pubblica sicu-
+                    <lb/>rezza, nelle lungaggini inefficaci della nostra procedura
+                    <lb/>penale. E pure, deputati e ministri d'ogni partito, fanno
+                    <lb/>a gara nel peggiorare ancora quel personale, fondamento
+                    <lb/>dell'ordine sociale, con quelle esigenti prepotenze degli uni,
+                    <lb/>con quelle colpevoli arrendevolezze degli altri, i cui effetti
+                    <lb/>sono descritti in un articolo di un nostro precedente nu-
+                    <lb/>mero.<note n="1" place="foot">Vedi nel num. 6 l'articolo intitolato: <hi rend="italic">Dove andiamo?</hi> (pag. 87).</note>
+                </p>
+                <p facs="#a1_p8">
+                    <lb/>Questa dolorosa contraddizione fra lo zelo e l'indiffe-
+                    <lb/>renza delle medesime persone per due cose che ne fanno
+                    <lb/>una sola, è pur troppo facile a spiegarsi ed ha la sua ca-
+                    <lb/>gione nell'indole stessa della mente umana. Le classi infe-
+                    <lb/>riori che sono pure la maggioranza della nazione e i cui
+                    <lb/>bisogni sono in conseguenza la ragion d'essere principale
+                    <lb/>della libertà, la quale ha pure origine e fondamento nei bi-
+                    <lb/>sogni della natura umana e non nelle teorie dei trattati
+                    <lb/>di diritto costituzionale; queste classi non partecipano al
+                    <lb/>giuoco delle forze politiche in Italia. Non hanno voce in
+                    <lb/>capitolo, non possono farsi valere, e in conseguenza il pen-
+                    <lb/>siero dei loro bisogni e dei loro danni non può imporsi
+                    <lb/>alla mente dei governanti in proporzione della loro im-
+                    <lb/>portanza. D'altra parte coloro che partecipano al governo
+                    <lb/>ignorano i particolari delle loro condizioni, hanno sola-
+                    <lb/>mente un'idea indeterminata e generica delle loro soffe-
+                    <lb/>renze, e così non può di fatto avvenire il caso, possibile
+                    <lb/>in teoria quantunque improbabile, che nelle menti di quelli
+                    <lb/>uno sforzo di ragionamento dia alle classi inferiori l'impor-
+                    <lb/>tanza che avrebbero naturalmente quando fossero una forza
+                    <lb/>politica. Insomma queste classi e i loro interessi non en-
+                    <lb/>trano per nulla, o quasi, nella vita politica del paese; sono
+                    <lb/>escluse da essa; e ciò spiega come non si avverta l'esi-
+                    <lb/>stenza in mezzo alla nostra legislazione civile, di una legge
+                    <lb/>turca come quella nostra di pubblica sicurezza, inquantochè
+                    <lb/>l'applicazione di essa non tocca le classi che governano.
+                </p>
+                <p facs="#a1_p9">
+                    <lb/>No, non siamo un popolo libero. Solamente, le nostre
+                    <lb/>classi colte hanno un entusiasmo da letterati per un ideale sto-
+                    <lb/>rico della libertà raggranellato nei libri forestieri. Assoluta-
+                    <lb/>mente inesperte ed ignare delle condizioni d'esistenza
+                    <lb/>della società, scambiano le forme esterne della libertà per
+                    <lb/>la libertà stessa. Diciamo di essere una nazione giovane:
+                    <lb/>siamo piuttosto un popolo bimbo. Come quei bambini cui
+                    <lb/>la mamma ha portato dalla fiera l'orologio di foglia d'ot-
+                    <lb/>tone vanno attorno dicendo: <quote>« <hi rend="italic">Vedete, l'ho anch'io l'oro-
+                    <lb/>logio che si carica,</hi> »</quote> così noi andiamo pavoneggiandoci per
+                    <lb/>l'<placeName>Europa</placeName> colla nostra libertà; <term>libertà</term> da tre soldi che non
+                    <lb/>cammina e che, invece di dar vita a tutte le forze della
+                    <lb/>nazione per farle cooperare al suo benessere e al suo vi-
+                    <lb/>gore, ci accascia con tutte le debolezze proprie delle oli-
+                    <lb/>garchie decrepite, e ci toglie di sperare perfino quell'ener-
+                    <lb/>gia che il <term>dispotismo</term> seppe talvolta infondere nei popoli.
+                </p>
+                
+                <pb n="272" facs="#pag272"/>
+                <head facs="#a2_titolo">EMIGRAZIONE E <term>COLONIZZAZIONE</term>.</head>
+                <p facs="#a2_p1">
+                    <lb/>Ogni volta che accade di parlare dell'<term type="theme">emigrazione</term>, il pen-
+                    <lb/>siero corre a quegli <term>agenti arruolatori</term> le cui bugiarde se-
+                    <lb/>duzioni sono state tanto fatali a migliaia e migliaia delle
+                    <lb/>nostre migliori braccia. Di tutti i provvedimenti che il <orgName>governo</orgName>
+                    <lb/>può prendere in faccia al doloroso esodo il solo su
+                    <lb/>cui non cada discussione è la necessità d'invigilare efficace-
+                    <lb/>mente la loro condotta; e a questo principalmente miravano
+                    <lb/>i due progetti di legge <persName>Del Giudice</persName> e <persName>Minghetti</persName>-<persName>Luzzatti</persName>,
+                    <lb/>da tanto tempo presentati al nostro <orgName>Parlamento</orgName>, che pote-
+                    <lb/>rono già intanto essere conciliati in uno solo. Non sarà male
+                    <lb/>intanto l'andare indagando di chi gli agenti di emigrazione
+                    <lb/>siano più direttamente gli emissari, quali speciali interessi
+                    <lb/>essi servano, a quali più segrete mire s'ispiri l'appello di
+                    <lb/>cui sono i portavoce.
+                </p>
+                <p facs="#a2_p2">
+                    <lb/>E qui, si badi, non parliamo di coloro, che, ottenuta
+                    <lb/>dall'emigrante una certa somma di denaro come antici-
+                    <lb/>pazione sulle spese di viaggio le quali gli hanno promesso
+                    <lb/>di assumersi per lui, alla vigilia del giorno fissato per la
+                    <lb/>partenza scompaiono e l'abbandonano. Codesti casi rien-
+                    <lb/>trano nel novero delle truffe che le leggi ordinarie già col-
+                    <lb/>piscono, e sono imputabili non agli agenti d'emigrazione
+                    <lb/>ma a chi ne usurpa il nome.
+                </p>
+                <p facs="#a2_p3">
+                    <lb/>In molti dei paesi a cui si emigra, i governi non si
+                    <lb/>valgono punto degli agenti d'emigrazione, e in quasi tutti
+                    <lb/>gli altri lo fanno in modo indiretto e dichiarandosi irre-
+                    <lb/>sponsabili del loro agire. Nella stessa storia delle mi-
+                    <lb/>sure legislative dirette a promuovere l'emigrazione vi sono
+                    <lb/>molteplici sbalzi, e l'opera iniziatrice è via via energica,
+                    <lb/>rilassata, negligente, e di nuovo caldeggiata e di nuovo ne-
+                    <lb/>gletta. Gli è che se ogni paese ha interesse grandissimo
+                    <lb/>a che la sua popolazione aumenti di forze vive, la più lieve
+                    <lb/>esperienza gli fa anche manifesto che per tali non posson
+                    <lb/>riconoscersi se non coloro che emigrano spontaneamente. La
+                    <lb/>propaganda dei sollecitatori non suole riescire se non con
+                    <lb/>quelli che sono cercati dalla giustizia, coi più poveri e coi più
+                    <lb/>ignoranti. Colui che ha capitali, che possiede in sè accumulati
+                    <lb/>coll'educazione tesori d'industria, che è cittadino senza rim-
+                    <lb/>provero, non cede tanto presto alle belle parole, nemmeno
+                    <lb/>se il parroco od il sindaco le avvalorino col loro consiglio:
+                    <lb/>per lo meno, egli attenderà le informazioni dell'amico o del
+                    <lb/>congiunto che più disgraziate condizioni spingono invece a
+                    <lb/>partire ad ogni costo. D'altronde, anche all'infuori della
+                    <lb/>probabilità del successo vediamo ogni giorno che l'agente
+                    <lb/>si dirige assai più volentieri ai braccianti o giornalieri, che
+                    <lb/>non ai fittaiuoli od ai mezzadri: egli cerca anzitutto brac-
+                    <lb/>cia agricole che vogliano dedicarsi al lavoro dipendente; le
+                    <lb/>promesse di terreni, che figurano fra i principali suoi mezzi
+                    <lb/>di seduzione, svaniscono quasi sempre e rimangono appena
+                    <lb/>il sollievo delle spese di viaggio e le alte mercedi, ed il
+                    <lb/>pronto collocamento. Fermiamoci un po' ad esaminare que-
+                    <lb/>sto fenomeno.
+                </p>
+                <p facs="#a2_p4">
+                    <lb/>Gli Stati dell'America sono ben lungi dall'avere messo
+                    <lb/>a coltura tutto il loro suolo. Tranne poche eccezioni, a mano
+                    <lb/>a mano che la popolazione si estende e si fa più densa,
+                    <lb/>il suolo vergine diventa un sicuro tesoro pel primo occu-
+                    <lb/>pante, ma intanto esso ha un valore, la cui misura dipende
+                    <lb/>dalle circostanze della colonizzazione. I governi si sono
+                    <lb/>affrettati ad affermare i diritti demaniali sopra quelle de-
+                    <lb/>solate estensioni, tuttavia non tutti lo fecero con tanta
+                    <lb/>sollecitudine da prevenire la costituzione d'immensi lati-
+                    <lb/>fondi di ragione privata: eppoi i principii adottati per
+                    <lb/>regolarne la successiva alienazione furono i più diversi.
+                    <lb/>Qua i terreni vennero posti partitamente a immediato con-
+                    <lb/>tatto dell'emigrante che arrivava con poco o nessun capi-
+                    <lb/>tale perchè appunto si voleva costituire una classe demo-
+                    <lb/>cratica di piccoli proprietari agiati ed indipendenti, là invece
+                    <lb/>diventarono una specie di beneficio feudale di pochi privi-
+                    <lb/>legiati. Con quella moneta senza corso si saziarono gl'in-
+                    <lb/>triganti, si tranquillarono gli agitatori, si compensarono i
+                    <lb/>benemeriti; poi la si prodigò come soprammercato di contratti
+                    <lb/>e infine se ne fece la fortunata base di operazioni finan-
+                    <lb/>ziarie. Erano soltanto il progredire della civiltà circostante,
+                    <lb/>il parallelo incremento dei consumi, la moltiplicazione delle
+                    <lb/>vie di comunicazione che potevano determinare il valore,
+                    <lb/>quindi da un lato l'interesse dei governi a trarne il più
+                    <lb/>immediato beneficio, dall'altro l'interesse degli speculatori
+                    <lb/>a profittare di quella occasione per fare un'operazione di
+                    <lb/>credito a lunga scadenza ma con pegno sicuro.
+                </p>
+                <p facs="#a2_p5">
+                    <lb/>Così s'accrebbe il numero dei latifondi. Quei proprietari
+                    <lb/>che intrapresero la conduzione diretta, abbagliati dagli
+                    <lb/>enormi profitti della coltura estensiva, abituati quasi gene-
+                    <lb/>ralmente a vederla riescire mercè l'impiego degli schiavi,
+                    <lb/>non poterono così presto lasciarsi persuadere dalla dottrina
+                    <lb/>della compartecipazione delle braccia ai frutti della terra,
+                    <lb/>e seguitarono ancora a mantenersi in diretto antagonismo
+                    <lb/>cogl'interessi e le speranze del lavoro. Come dapprima
+                    <lb/>alimentarono la tratta dei negri, come si valsero poi del-
+                    <lb/>l'importazione dei <foreign xml:lang="en">coolies</foreign>, ora ricorrono alla seduzione degli
+                    <lb/>elementi più poveri della popolazione agricola europea; chè
+                </p>
+                
+                <pb n="273" facs="#pag273"/>
+                <p facs="#a2_p6">
+                    <lb/>se ad essi promettono qualche ettaro, o in dono o a prezzi
+                    <lb/>minimi, circondano la promessa di tali condizioni da rendere
+                    <lb/>facile il proclamarli decaduti quando appunto i lavori di dis-
+                    <lb/>sodamento o di miglioria son più progrediti, e intanto colle
+                    <lb/>anticipazioni e coi sussidi hanno posto loro indosso peggiori
+                    <lb/>catene di quelle della schiavitù.
+                </p>
+                <p facs="#a2_p7">
+                    <lb/>E quanto agli speculatori che avevano comprato i deserti
+                    <lb/>latifondi, non per conservarli ma per rivenderli con van-
+                    <lb/>taggio alla spicciolata, tutto l'avvenire della loro operazione
+                    <lb/>dipendeva dalla sollecitudine con cui riescivano a popolarli.
+                    <lb/>Più guadagnavano tempo, e più largamente maturava il bene-
+                    <lb/>ficio dei frutti, più si spargeva qua e là il numero dei centri
+                    <lb/>colonizzati e più aumentava il valore delle terre contigue ed
+                    <lb/>interstizie. Che importava a codesti speculatori il promuovere
+                    <lb/>il benessere dei nuovi coloni, l'avere in essi degli elementi
+                    <lb/>d'ordine e di moralità, il porli in condizione di contribuire
+                    <lb/>alla ricchezza del paese? A loro bastava, vendendo il mag-
+                    <lb/>gior numero possibile di lotti, trar partito di quel denaro,
+                    <lb/>ed aumentare nello stesso tempo il valore dei lotti residui,
+                    <lb/>e anch'essi diventarono i naturali protettori degli agenti
+                    <lb/>d'emigrazione, i quali, in mezzo all'immenso numero di
+                    <lb/>vittime indigenti, ne traevano pure qualcuna provveduta del
+                    <lb/>capitale necessario a quelle compre.
+                </p>
+                <p facs="#a2_p8">
+                    <lb/>Il caso che i governi mandino ed ispirino gli agenti
+                    <lb/>coll'intenzione di accordare direttamente agli immigrati, e
+                    <lb/>senza secondi fini, terre ed aiuti, è un'eccezione, e in-
+                    <lb/>dica che le condizioni di quelle terre sono così svantaggiose
+                    <lb/>che non poterono ancora diventar base di operazioni finan-
+                    <lb/>ziarie, e che attendono da un principio di colonizzazione
+                    <lb/>anche questo menomo valore. Tutto l'apparato che gli agenti
+                    <lb/>d'emigrazione sogliono spiegare di commissioni ministeriali
+                    <lb/>e di patenti presidenziali od imperiali, è in generale una
+                    <lb/>veste presa a prestito ma indossata con autorizzazione, chè
+                    <lb/>l'autorizzazione è con deplorevole facilità accordata dai
+                    <lb/>compiacenti governi per favorire interessi più o meno
+                    <lb/>legittimi. Ma posto in evidenza che la speculazione o l'in-
+                    <lb/>teresse di una classe si sostituisce quasi sempre alla nazione,
+                    <lb/>che ogni dichiarazione di intendimenti umanitari è soltanto
+                    <lb/>un velo che nasconde l'affare, cambia per questo di indirizzo
+                    <lb/>o d'indole l'azione che il governo italiano può e deve eser-
+                    <lb/>citare a favore dei nostri emigranti, e a tutelarli di fronte
+                    <lb/>agli agenti di emigrazione?
+                </p>
+                <p facs="#a2_p9">
+                    <lb/>È facile vedere che la vigilanza sulle costoro operazioni
+                    <lb/>diventa una necessità più imperiosa che mai; ma conviene
+                    <lb/>anche più sottilmente notare che il campo in cui esercitarla
+                    <lb/>rimane spostato, o moltiplicato. Non si tratta più soltanto
+                    <lb/>di reprimere o prevenire le frodi che gli agenti esercitano
+                    <lb/>a danno degli emigranti per alimentare i propri guadagni,
+                    <lb/>ma bisogna più specialmente vedere nel paese a cui si emi-
+                    <lb/>gra su quali basi le promesse riferite dagli agenti vennero
+                    <lb/>fatte, come sono mantenute, e quali altre circostanze vi si
+                    <lb/>riannodino a snaturarne il vantato scopo; e così, come i
+                    <lb/>titoli provvisorii di proprietà possano sottostare a tante
+                    <lb/>cause di decadimento prima di diventar definitivi, e come
+                    <lb/>i rapporti di debito e credito che non importano l'arresto
+                    <lb/>personale, importino invece opposizione al rimpatrio. Que-
+                    <lb/>sta ulteriore azione, che il governo nostro dovrebbe spiegare,
+                    <lb/>è tanto più difficile perchè non puramente di indole inter-
+                    <lb/>nazionale, e infatti invece che ad un altro governo, dovrebbe
+                    <lb/>indirizzarsi ad una classe di proprietari o a certe imprese
+                    <lb/>d'affari. La via più naturale sarebbe che i nostri Consoli,
+                    <lb/>forti delle disposizioni della legislazione più generale, ricor-
+                    <lb/>ressero davanti a quei tribunali in qualche singolo caso che
+                    <lb/>poi formasse giurisprudenza: ma quelle disposizioni sono
+                    <lb/>poi chiare ed esplicite? e quei tribunali saranno essi ab-
+                    <lb/>bastanza al disopra degl'interessi locali o personali per
+                    <lb/>giudicare imparzialmente?... Un' altra misura più pratica
+                    <lb/>che si offre subito al pensiero, sarebbe quella per cui il governo,
+                    <lb/>prima di riconoscere gli agenti di emigrazione di un paese,
+                    <lb/>pigliasse cognizione delle condizioni che si voglion fare al-
+                    <lb/>l'emigrante, e quando non gli sembrassero abbastanza favo-
+                    <lb/>revoli, o quando le ritenesse ingannevoli, trattasse per la
+                    <lb/>loro modificazione; e quando non potesse ottenere le ri-
+                    <lb/>chieste concessioni si mostrasse risoluto nel non rilasciare
+                    <lb/>o nel ritirare le patenti alle agenzie di emigrazione che di-
+                    <lb/>rigessero emigrati verso quei dati luoghi.
+                </p>
+                <closer>
+                    <signed facs="#a2_firma">X</signed>
+                </closer>
+
+                <pb n="350" facs="#pag350"/>
+                <head facs="#a3_p1_titolo">IL CONGRESSO IGIENICO DI <placeName>MILANO</placeName>.</head>
+                <opener>
+                    <salute>Al Direttore.</salute>
+                </opener>
+                <p facs="#a3_p1">
+                    <lb/>L'articolo della <orgName>Rassegna</orgName> (<bibl>vol. VIII, pag. 274</bibl>) sul <hi rend="italic"><term>Con-
+                    <lb/>gresso Igienico</term></hi> tenutosi nel <date when="1881-09">settembre</date> a <placeName>Milano</placeName>, pecca di
+                    <lb/>non poche inesattezze.
+                </p>
+                <p facs="#a3_p2">
+                    <lb/>Non è giusta l'asserzione che al <orgName>Congresso</orgName> sia stata
+                    <lb/>impossibile <quote>« ogni larva di studio o d'esame. »</quote> Infatti i temi
+                    <lb/>erano stati annunciati assai tempo prima affinchè ciascuno
+                    <lb/>avesse tempo a prepararcisi. Le discussioni animatissime
+                    <lb/>che vi si agitarono, mostrarono che non sempre le parole del
+                    <lb/>relatore erano accolte ciecamente e tumultuosamente, come
+                    <lb/>lascia supporre l'articolista. Mi basti l'accennare, ad esempio,
+                    <lb/>la votazione dell'assemblea sulle proposte del relatore pro-
+                    <lb/>fessore <persName>Pagliani</persName> rispetto al miglior sistema di <term>fognatura</term>
+                    <lb/>delle città.
+                </p>
+                <pb n="351" facs="#pag351"/>
+                <p facs="#a3_p3">
+                    <lb/>Nel giudizio che la <orgName>Rassegna</orgName> porta sulla relazione del
+                    <lb/>prof. <persName>Sormani</persName> al tema: <title><hi rend="italic">Profilassi delle malattie veneree</hi></title>, si
+                    <lb/>parla di <quote>« statistiche parziali, per diversi rispetti eccepibili, di
+                    <lb/>affastellamento irrazionale di cifre. »</quote> Ora il <persName>Sormani</persName> stette ri-
+                    <lb/>gorosamente alle risultanze di sole cifre ufficiali.
+                </p>
+                <p facs="#a3_p4">
+                    <lb/>Nè sussiste l'accusa che sulle conclusioni del sig. <persName>Sor-
+                    <lb/>mani</persName> si sia votato <quote>« senza discussione, »</quote> chè anzi l'ordine del
+                    <lb/>giorno del prof. <persName>De Giovanni</persName> che sanzionò quelle conclusioni
+                    <lb/>superò un vivissimo dibattito. Nè si può dire mancante
+                    <lb/>di serietà tale votazione, perchè col sig. <persName>Sormani</persName> stette la
+                    <lb/>gran maggioranza dei medici.
+                </p>
+                <p facs="#a3_p5">
+                    <lb/>Finalmente la <orgName>Rassegna</orgName> accusa il <persName>Sormani</persName> d'aver pro-
+                    <lb/>posto brutalmente l'estensione della <term>visita sanitaria</term> alle donne
+                    <lb/>addette a stabilimenti industriali. Ora nè egli, nè nessun
+                    <lb/>altro ha mai pensato di comprare a prezzo della <term>pubblica
+                    <lb/>moralità</term> il più lieve vantaggio sociale. Egli accennò invece
+                    <lb/>all'opportunità di estendere la visita sanitaria, oltre che ai
+                    <lb/>soldati di terra e di mare, agli <term>operai celibi</term> delle grandi in-
+                    <lb/>dustrie; e tra quest'ultima proposta e la prima ognun vede
+                    <lb/>l'immensa differenza.
+                </p>
+                <closer>
+                    <signed facs="#a3_firma"><hi rend="italic">Dev.mo</hi> T.</signed>
+                </closer>
+
+                <pb n="142" facs="#pag142"/> 
+                <head facs="#bib_titolo">
+                    <bibl>
+                        <author>
+                            <forename>GIOVANNI</forename>
+                            <surname>DE CASTRO</surname>
+                        </author>.
+                        <title>I popoli dell'antico Oriente, volumi due.</title>
+                    </bibl>
+                </head>
+                <p facs="#bib_pubblicazione">
+                    <lb/>— <pubPlace>Milano</pubPlace>, <date>1878</date>.
+                </p>
+                <p facs="#bib_p1">
+                    <lb/>In quest'opera l'Autore s'è proposto di darci <quote>« un rac-
+                    <lb/>conto del tutto familiare delle vicende »</quote> de' popoli orientali
+                    <lb/>trattando delle <quote>« società e stati che fiorirono nell'<placeName>Asia</placeName> ante-
+                    <lb/>riore, colà ove gli Italiani, fin d'antico, ebbero dominio e poi
+                    <lb/>quella dimestichezza, migliore della conquista, che il com-
+                    <lb/>mercio agevola e raffina »</quote> (p. x): ossia, in altri termini, trat-
+                </p>
+                <p facs="#bib_p2">
+                    <lb/>tando di tutte quelle schiatte e nazioni, la cui storia forma
+                    <lb/>argomento d'ogni altro libro di simil genere. Le civiltà che
+                    <lb/>nacquero e si svolsero per tutto il territorio compreso fra
+                    <lb/>l'<placeName>Indo</placeName> e il <placeName>Mar Nero</placeName>, sulle coste asiatiche del <placeName>Mediterraneo</placeName>,
+                    <lb/>e nella valle del <placeName>Nilo</placeName>, passano rapidamente dinanzi agli
+                    <lb/>occhi del lettore, in quadri non di rado ben disegnati.
+                </p>
+                <p facs="#bib_p3">
+                    <lb/>Se il signor <persName>De Castro</persName> ha avuto in animo di fare un
+                    <lb/>libro di amena e piacevole lettura, egli c'è riuscito in
+                    <lb/>molta parte. E in tal caso non gli s'avrebbe che a rim-
+                    <lb/>proverare qualche difettuccio di forma, un criterio non
+                    <lb/>sempre uniforme nel coordinare i fatti e nella scelta dei
+                    <lb/>medesimi, e il promettere, alcuna volta, ne' titoli de' capi-
+                    <lb/>toli più di quel che spesso vi si trova. Così, per esempio,
+                    <lb/>in un luogo il lettore s'aspetta d'aver notizie sulla lette-
+                    <lb/>ratura egiziana; e poi vien solo a sapere, che nel <placeName>Rama-
+                    <lb/>seum</placeName> a <placeName>Karnak</placeName> nove piccole stanze dovevano contener
+                    <lb/>papiri, perchè sulla porta d'ingresso sta l'immagine di
+                    <lb/><persName>Thot</persName>, Dio della letteratura: il quale del resto si trova ef-
+                    <lb/>figiato anche su altre porte che non mettono sempre a bi-
+                    <lb/>blioteche. In altro luogo si promette di dire alcuna cosa
+                    <lb/>de' primi ricordi storici degli Arii, e poi non si trovano
+                    <lb/>che poche parole intorno allo <hi rend="italic"><title>Sciah-nameh</title></hi>. Ma se, oltre a
+                    <lb/>un libro d'amena lettura, l'Autore avesse anche inteso di
+                    <lb/>fare un lavoro che dovesse servir davvero all'incremento
+                    <lb/>degli studi, per quel che concerne la storia orientale, egli
+                    <lb/>non ha pienamente conseguito lo scopo. Inquantochè, a
+                    <lb/>parer nostro, manca in queste pagine quello che uno stu-
+                    <lb/>dioso di buona volontà cerca, e ha diritto di trovare, anche
+                    <lb/>in un libro elementare di questo genere: cioè a dire un
+                    <lb/>aiuto che lo metta sulla strada di procurarsi più solide e
+                    <lb/>amplie notizie della materia a cui egli attende. Mai una
+                    <lb/>citazione viene a confortare le asserzioni dell'Autore; mai
+                    <lb/>uno di que' nomi legati alle più belle e recenti conquiste
+                    <lb/>dell'<term>Archeologia orientale</term>, si porge alla memoria di chi legge.
+                </p>
+                <p facs="#bib_p4">
+                    <lb/>Se il signor <persName>De Castro</persName>, in altra edizione, riuscisse a ri-
+                    <lb/>mediare a ciò, potrebbe rendere molto più utile il suo libro,
+                    <lb/>senza che ne scapitasse il diletto, che viene dalla forma fa-
+                    <lb/>miliare e viva con cui egli s'è adoperato ad esporre i fatti.
+                </p>
+
+                <pb n="283" facs="#pag283"/>
+                <head facs="#bib_p1_titolo">
+                    <bibl>
+                        <title>Archivio della società romana di storia patria, vol. III, fascicolo III.</title>
+                        <lb/>— <pubPlace>Roma</pubPlace>, presso la Società, <date>1880</date>.
+                    </bibl>
+                </head>
+                <p facs="#bib_283_p1">
+                    <lb/>Questo quaderno ultimamente pubblicato contiene un
+                    <lb/>documento di gran peso per la storia della Riforma in <placeName>Italia</placeName>.
+                    <lb/>Porta il titolo di <hi rend="italic"><title>Compendium processuum Sancti Officii Romae</title></hi>
+                    <lb/>qui fuerunt compilati sub Paulo III, Giulio II et Paulo IV,
+                    <lb/>ma, secondo giustamente osserva l'editore sig. <persName>Costantino
+                    <lb/>Corvisieri</persName>, più gli converrebbe l'altro di repertorio dei pro-
+                    <lb/>cessi, poichè il documento offre in ordine alfabetico i nomi
+                    <lb/>degli imputati di eresia, gli articoli loro incriminati o sulla
+                    <lb/>deposizione di testimoni ora per confessione fatta dagli im-
+                    <lb/>putati stessi nei costituti ed i costanti richiami della pa-
+                    <lb/>ginatura degli atti relativi. Per la sua sostanza questo
+                    <lb/>documento può essere definito <hi rend="italic"><title>Il libro dei sospetti del Santo
+                    <lb/>Uffizio, nei suoi primordi</title></hi>.
+                </p>
+                <p facs="#bib_283_p2">
+                    <lb/>L'editore non crede, e con ragione, che il <hi rend="italic"><title>Compendium</title></hi>
+                    <lb/>possa sopperire a quel grand'uopo storico pel quale sol-
+                    <lb/>tanto il completo materiale dei processi potrebbe bastare, e
+                    <lb/>poichè si riferisce appunto a documenti <quote><hi rend="italic">che non è in sua
+                    <lb/>facoltà di esaminare</hi></quote> dichiara volersi attenere prudentemente
+                    <lb/><quote><hi rend="italic">al partito di non farvi attorno osservazioni e molto meno ap-
+                    <lb/>prezzamento di sorta</hi></quote>.
+                </p>
+                <p facs="#bib_283_p3">
+                    <lb/>Senza mancare di rispetto alla saggia prudenza del-
+                    <lb/>l'editore, che anzi vuol essere imitata, ci sia lecito accen-
+                    <lb/>nare che qualche osservazione intorno a punti storici im-
+                    <lb/>portanti e finora dubbi o almeno dibattuti scaturisce di
+                    <lb/>suo dal documento pubblicato. E speriamo che l'editore
+                    <lb/>stesso si risolva ad illustrare il documento nel seguito della
+                    <lb/>pubblicazione, la quale, giunta in questo quaderno al <hi rend="italic">Finis
+                    <lb/>catalogi</hi>, deve continuare con le aggiunte circa l'<quote><hi rend="italic">heresie di
+                    <lb/><placeName>Napoli</placeName> e <placeName>Terra di Lavoro</placeName> dal 1554 al 1564 cavate da uno
+                    <lb/>scritto di mano del Cardinale di Santa Severina</hi></quote>.
+                </p>
+                <p facs="#bib_283_p4">
+                    <lb/>Il precipuo fra i punti alla dilucidazione dei quali serve
+                    <lb/>il documento ora venuto fuori riguarda la Marchesa di
+                    <lb/>Pescara <persName>Vittoria Colonna</persName>. La prova diretta dell'annuenza
+                    <lb/>di Vittoria alle dottrine novatrici, che vuolsi mancata fin
+                    <lb/>ora, si può affermare non manchi più dopo la pagina del
+                    <lb/>catalogo, eloquente nella sua stessa aridità, intitolata: <hi rend="italic">Mar-</hi>
+                </p>
+                <pb n="284" facs="#pag284"/>
+                <p facs="#bib_284_p1">
+                    <lb/><hi rend="italic">chionissa Piscariae</hi>. A dir vero, anche per lo innanzi, il
+                    <lb/>cumulo degli indizi era tale da non permettere che si
+                    <lb/>escludesse del tutto, come vollero alcuni fra i quali per
+                    <lb/>ultimo il <persName>Campori</persName>, il consenso di lei alle dottrine ed al
+                    <lb/>moto religioso propagatosi variamente di <placeName>Germania</placeName> in
+                    <lb/><placeName>Italia</placeName>. Tali indizi furono già qui <note n="1" place="foot"><hi rend="italic">Rassegna</hi>, vol. III, pag. 69.</note> posti in luce, dal si-
+                    <lb/>gnor <persName>Masi</persName> nè occorre tornarvi sopra. Per avviare la cri-
+                    <lb/>tica sulla strada del vero storico, bastava forse anco la
+                    <lb/>sola lettera dell'<persName>Occhino</persName> a Vittoria del 22 agosto 1542
+                    <lb/>custodita nella biblioteca di <placeName>Siena</placeName> e pubblicata nel 1875
+                    <lb/>dal <persName>Benrath</persName>. Circa la qual lettera in un foglio di notizie
+                    <lb/>intorno all'<persName>Occhino</persName> di mano del <persName>Benvoglienti</persName> <note n="2" place="foot">Biblioteca di Siena, <hi rend="italic">Carteggio Benvoglienti</hi>.</note> con data
+                    <lb/>21 novembre 1725 si legge: <quote>« è costà nelle mani di frati
+                    <lb/>zoccolanti che per vederla sottoscritta da frate Bernardino
+                    <lb/>senese anno creduto che la fusse del nostro S. Bernardino »</quote>.
+                    <lb/>Ci duole non esser riesciti a scoprire qual fosse il luogo
+                    <lb/>cui accenna il <hi rend="italic">costà</hi> del <persName>Benvoglienti</persName>, ma la notizia non è
+                    <lb/>superflua per la storia di quell'importantissimo documento.
+                </p>
+                <p facs="#bib_284_p2">
+                    <lb/>Tornando alla pubblicazione procurata dal sig. <persName>Corvisieri</persName>,
+                    <lb/>vogliamo notare come investigando nelle scritture posteriori
+                    <lb/>al periodo abbracciato dal <hi rend="italic"><title>Compendium</title></hi> (1534-1559) sarebbe
+                    <lb/>facile trovare per molti degli individui ivi nominati gli ef-
+                    <lb/>fetti delle annotazioni prese sul conto loro nei registri del
+                    <lb/>Sant'Offizio. Eccone un esempio da aggiungersi a quello ce-
+                    <lb/>lebre del <persName>Carnesecchi</persName> e di altri. Nel <hi rend="italic"><title>Compendium</title></hi> si legge:
+                    <lb/><hi rend="italic"><persName>Petrus Pulcii</persName> florentinus haereticus</hi>. E pare la semplice annota-
+                    <lb/>zione di un indizio ricavato dal Processo di <persName>Giovan Battista
+                    <lb/>Scoto</persName>. Or bene: in un foglio di <hi rend="italic">Avvisi</hi> di <placeName>Roma</placeName> del 12 lu-
+                    <lb/>glio 1597, <note n="3" place="foot">Archivio di Firenze, filza 1027. È chiaro che non si tratta del <persName>Pucci</persName> capo della setta dei Puccianisti; nè la distanza di tempo è tale da escludere che il <persName>Pulci</persName> decapitato nel 1597 sia quello annotato nel <hi rend="italic">Compendium</hi>.</note> troviamo: <quote>« Sabbato fu mozza la testa al <persName>Pulci</persName> fio-
+                    <lb/>rentino eretico dentro le carceri di <placeName>Tordinona</placeName> perchè si disdisse
+                    <lb/>del suo errore et poi brugiato il suo corpo in <placeName>Campo di Fiore</placeName>. »</quote>
+                    <lb/>Il Sant' Uffizio poteva indugiare, ma, o prima o poi, col-
+                    <lb/>piva i suoi <hi rend="italic">annotati</hi>. E chi sa quale sorte preparavano a
+                    <lb/><persName>Vittoria Colonna</persName> le annotazioni prese sul conto suo! Forse
+                    <lb/>la morte che la colse non vecchia nel 1547 rubò una vit-
+                    <lb/>tima illustre ai patiboli della Santa Romana Inquisizione.
+                    <lb/>La pagina del <hi rend="italic"><title>Compendium</title></hi> parla chiaro: <hi rend="italic">suspectam et in-
+                    <lb/>fectam forsan opinionibus frati Bernardi Ochini</hi>. Non vi è nel
+                    <lb/><hi rend="italic"><title>Compendium</title></hi> gran cosa di più per il <persName>Carnesecchi</persName>.
+                </p>
+
+                <head facs="#bib_moroni_titolo">
+                    <bibl>
+                        <author><surname>MORONI</surname> <forename>ALESSANDRO</forename></author>, 
+                        <title>I Minuetti, spigolature storiche</title>. <pubPlace>Roma</pubPlace>, Voghera, <date>1880</date>.
+                    </bibl>
+                </head>
+                <p facs="#bib_moroni_p1">
+                    <lb/>Anche i minuetti possono avere una storia: e il sig. Moroni 
+                    <lb/>si è provato a farla, dichiarando però di non voler tanto 
+                    <lb/>descriver la storia dei minuetti, quanto studiare i minuetti 
+                    <lb/>stessi nella storia (p. 12), congiungendo cioè la notizia 
+                    <lb/>universale del costume proprio ai tempi in cui fiorì tal 
+                    <lb/>singolar foggia di danze. I minuetti hanno importanza pel 
+                    <lb/>sig. Moroni, perchè « rappresentano l'ultima forma e lo 
+                    <lb/>splendido tramonto di quella società.... che venne meno 
+                    <lb/>colle ultime battute di quelli alla vigilia della rivoluzione (p. 16) ».
+                </p>
+                <p facs="#bib_moroni_p2">
+                    <lb/>Ad ogni modo, anche desiderando un tessuto storico più 
+                    <lb/>eguale e compatto, e maggior copia di particolari paesani, 
+                    <lb/>il lavoro del signor Moroni riesce utile insieme e piacevole 
+                    <lb/>a leggersi, e noi aspettiamo con desiderio l'altro sulle 
+                    <lb/>feste romane ch'egli ci annunzia di prossima pubblicazione.
+                </p>
+
+                <pb n="144" facs="#pag144"/> 
+                <head facs="#not_titolo">NOTIZIE.</head>
+                <p facs="#not_monaci">
+                    <lb/>— <persName>Ernesto Monaci</persName>, professore di lingue romanze all'Università di
+                    <lb/><placeName>Roma</placeName>, ha scoperto un manoscritto importante, relativo alla storia di
+                    <lb/><persName>Federigo Barbarossa</persName>. È un poema di quasi 3000 versi latini.
+                </p>
+                <p facs="#not_trollope">
+                    <lb/>— La <title>Vita di Pio IX</title> di <persName>Tommaso Adolfo Trollope</persName> (2 vol. <orgName>Bentley</orgName>)
+                    <lb/>recentemente pubblicata in inglese, non incontra il favor della critica.
+                </p>
+                <p facs="#not_manzoni">
+                    <lb/>— Nell'annunziare la pubblicazione del poema, finora sconosciuto,
+                    <lb/>del <persName>Manzoni</persName> <title>Del Trionfo della libertà</title>, il <orgName><hi rend="italic">Magazin für die Literatur des
+                    <lb/>Auslandes</hi></orgName> (<date>16 febbraio</date>) fa notare l'importanza di questo lavoro.
+                </p>
+                <p facs="#not_amari">
+                    <lb/>— Il professor <persName>Amari</persName> si applica indefessamente alla traduzione ita-
+                    <lb/>liana, con note ec., della <title>Biblioteca arabo-sicula</title> ossia <title>Raccolta di testi
+                    <lb/>arabici che toccano la Geografia, la Storia, le Biografie e la Bibliografia</title>
+                    <lb/><hi rend="italic">della <placeName>Sicilia</placeName></hi>.
+                </p>
+                <p facs="#not_thiers">
+                    <lb/>— Si annunzia la prossima pubblicazione delle orazioni del <persName>Thiers</persName>
+                    <lb/>pronunziate da lui come presidente della Repubblica (1871-73).
+                </p>
+                <p facs="#not_bitard">
+                    <lb/>— Il <persName>Bitard</persName> ha pubblicato (da <orgName>Dreyfus</orgName> a <placeName>Parigi</placeName>) un <title>Dizionario ge-
+                    <lb/>nerale della biografia contemporanea</title> che l'<orgName><hi rend="italic">Athenaeum</hi></orgName> giudica
+                    <lb/>superiore a quello del <persName>Vapereau</persName>.
+                </p>
+                <p facs="#not_bigot">
+                    <lb/>— Nella <orgName><hi rend="italic">Revue politique et littéraire</hi></orgName> (<date>16 febbraio</date>) <persName>Charles Bigot</persName> di-
+                    <lb/>scorre del pontificato di <persName>Pio IX</persName>.
+                </p>
+                <p facs="#not_hellwald">
+                    <lb/>— Nell' <orgName><hi rend="italic">Ausland</hi></orgName>, n. 1-6, <persName>Fr. Hellwald</persName> ha pubblicato degli studi
+                    <lb/>sulla quistione d'Oriente considerandola come quistione di civiltà.
+                </p>
+                <p facs="#not_westminster">
+                    <lb/>— Nella <orgName><hi rend="italic">Westminster Review</hi></orgName> del <date when="1878-01">Gennaio 1878</date>, si esaminano le pub-
+                    <lb/>blicazioni di statistica fatte per cura del cessato Ministero di Agricoltura.
+                </p>
+                <p facs="#not_besant">
+                    <lb/>— Nell'articolo <title>Il movimento Maltusiano in Inghilterra</title>, pubblicato
+                    <lb/>nel n. 7 della <orgName><hi rend="italic">Rassegna</hi></orgName>, annunziammo che la signora <persName>Besant</persName> e l'editore
+                    <lb/><persName>Bradlaugh</persName> si erano appellati contro la sentenza.
+                </p>
+                <p facs="#not_samter">
+                    <lb/>— Nella <orgName><hi rend="italic">Gegenwart</hi></orgName> (n. 6), <persName>Walter Rogge</persName> fa un resoconto molto fa-
+                    <lb/>vorevole del libro di <persName>Adolfo Samter</persName>, <title>Sulla proprietà collettiva</title>.
+                </p>
+                <p facs="#not_bamberger">
+                    <lb/>— Nella <orgName><hi rend="italic">Rundschau</hi></orgName> del <date>febbraio</date> il <persName>Bamberger</persName> ci fa il quadro del
+                    <lb/>socialismo in <placeName>Germania</placeName>.
+                </p>
+                <p facs="#not_social">
+                    <lb/>— Si annunzia la prossima pubblicazione a <placeName>Londra</placeName> di una nuova
+                    <lb/>Rivista settimanale, <title>Social Notes</title>, diretta da <persName>S. C. Hall</persName>.
+                </p>
+                <p facs="#not_wilson">
+                    <lb/>— Nell' <orgName><hi rend="italic">Academy</hi></orgName> (<date>9 febbraio</date>), <persName>Charles Heath Wilson</persName> fa la descri-
+                    <lb/>zione di un sepolcro antico a <placeName>San Germano</placeName>.
+                </p>
+                <p facs="#not_archeo">
+                    <lb/>— Quasi tutti i giornali di <placeName>Europa</placeName> hanno ripetuto in questi ultimi
+                    <lb/>tempi la falsa notizia di meravigliose scoperte di antichità fatte presso
+                    <lb/>l'antica <placeName>Siponto</placeName>, non lungi da <placeName>Manfredonia</placeName>.
+                </p>
+
+                <pb n="352" facs="#pag352"/> 
+                <head facs="#notizie_titolo">NOTIZIE.</head>
+                <p facs="#notizie_n1">
+                    <lb/>— La Commissione, incaricata di pubblicare le lettere e gli scritti
+                    <lb/>di <persName>Pietro il Grande</persName>, comincerà, potendo, quest'anno la stampa del suo
+                    <lb/>lavoro. Chiunque possieda manoscritti di <persName>Pietro il Grande</persName> o scritti da
+                    <lb/>lui firmati è pregato di mandarli alla Commissione, che fattili copiare,
+                    <lb/>glie li renderà o gli darà un esemplare della pubblicazione.
+                </p>
+                <p facs="#notizie_n2">
+                    <lb/>— È annunziata per la fine di quest'anno la pubblicazione della
+                    <lb/>traduzione dell'<title><hi rend="italic">Ecclesiaste</hi></title>, di <persName>Ernesto Renan</persName>
+                    <lb/>con una estesa prefazione.
+                </p>
+                <p facs="#notizie_n3">
+                    <lb/>— In una biblioteca privata in <placeName>Inghilterra</placeName> si è trovato un mano-
+                    <lb/>scritto contenente un poema francese fino ad oggi completamente sco-
+                    <lb/>nosciuto, il cui argomento è la storia particolareggiata di <persName>Guglielmo
+                    <lb/>il Maresciallo</persName>, conte di <placeName>Pembroke</placeName>, che fu reggente d'<placeName>Inghilterra</placeName> nei
+                    <lb/>primi anni della minorità di <persName>Enrico III</persName>. Questo poema, che non con-
+                    <lb/>tiene meno di 19212 versi ottosillabici dev'essere stato composto negli
+                    <lb/>anni che seguirono la morte di <persName>Guglielmo il Maresciallo</persName>, cioè poco dopo
+                    <lb/>il 1219. L'autore non si nomina, ma fa conoscere chi gli fornì gli ele-
+                    <lb/>menti (che dovevano essere molto numerosi e molto esatti) del suo la-
+                    <lb/>voro; era un certo <persName>Giovanni Erlea</persName>, che figura frequentemente nei do-
+                    <lb/>cumenti diplomatici del tempo di <persName>Giovanni senza terra</persName> e di <persName>Enrico III</persName>
+                    <lb/>sotto il nome di <foreign xml:lang="la"><hi rend="italic">Johannes de Erlegia</hi></foreign>. Era stato scudiero di <persName>Guglielmo
+                    <lb/>il Maresciallo</persName> e più tardi uno dei suoi cavalieri. Il poema abbonda di
+                    <lb/>ragguagli assolutamente nuovi e di una incontestabile autenticità su
+                    <lb/>una infinità di punti della storia della <placeName>Francia</placeName> e dell'<placeName>Inghilterra</placeName> dal
+                    <lb/>1140 circa fino al 1219. Vi sono preziosi particolari su <persName>Enrico au court
+                    <lb/>Mantel</persName>, un racconto curiosissimo della salita al trono di <persName>Riccardo Cuor
+                    <lb/>di Leone</persName>, molti fatti nuovi intorno alle guerre di <persName>Riccardo</persName> e di <persName>Fi-
+                    <lb/>lippo Augusto</persName>, i torbidi in <placeName>Irlanda</placeName>, sotto il re <persName>Giovanni</persName>, l'invasione di
+                    <lb/><persName>Luigi</persName>, figlio di <persName>Filippo Augusto</persName>, in <placeName>Inghilterra</placeName>, ecc. L'opera è già in-
+                    <lb/>teramente copiata e si stamperà presto; intanto una notizia abbastanza
+                    <lb/>estesa sarà pubblicata in uno dei prossimi numeri della <title><hi rend="italic">Romania</hi></title>.
+                </p>
+                
+            </div>
+        </body>
+    </text>
+</TEI>
